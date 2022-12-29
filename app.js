@@ -12,7 +12,8 @@ app.set("view engine","ejs")
 
 app.use(express.static("public"));
 
-
+// ? ejs template
+app.set()
 
 
 app.get("/", (req, res) => {
